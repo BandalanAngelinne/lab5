@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Europe 101</title>
+<style>
+
+/* all h2 elements */
+h2 {
+  color: black;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 30px
+}
+
+html { 
+	background: url(europe.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	 background-size: cover;
+	}
+
+h1 {
+	font-family: "Brush Script MT", cursive;
+	font-size: 120px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 40px;
+	text-align: center;
+	color: black;
+	}
+div.gallery {
+    border: 5px solid #FFFFFF;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+}
+
+div.gallery img {
+    width: 150;
+    height: 200;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	color: black;
+	size: 25;
+	background-color: #FAEBD7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.5;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+	</style>
+</head>
+<body>
+
+<h1>Europe 101 </h1>
+<h2> An online tour of Europe</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="grand-canal.jpg">
+      <img src="grand-canal.jpg" alt="Grand Canal in Venice" width="600" height="400">
+    </a>
+    <div class="desc"> The Grand Canal forms one of the major water-traffic corridors in the city</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="trevi-fountain.jpg">
+      <img src="trevi-fountain.jpg" alt="Trevi Fountain in Rome" width="700" height="400">
+    </a>
+    <div class="desc">Trevi fountain is the junction of three roads and marks the terminal point of the <br>"modern" Acqua Vergine</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="sagrada-familia.jpg">
+      <img src="barcelona.jpg" alt="Sagrada Familia in Barcelona" width="600" height="400">
+    </a>
+    <div class="desc">The Basílica i Temple Expiatori de la Sagrada Família or in english Basilica and <br>Expiatory Church of the Holy Family</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="winter-palace.jpg">
+      <img src="winter-palace.jpg" alt="Winter Palace in Russia" width="600" height="400">
+    </a>
+    <div class="desc">The Winter Palace the official residence of the Russian monarchs.It currently <br>houses the Hermitage Museum</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+ </div>
+
+ </body>
+</html>
